@@ -1,59 +1,212 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-US">
 
-<head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Aureum</title>
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+		<link rel="manifest" href="assets/img/favicons/site.webmanifest">
+		<link href="assets/css/theme.css" rel="stylesheet" />
+		<link href="assets/css/app.css" rel="stylesheet" />
 
-	<!-- Bootstrap CSS -->
-	<link href="bootstrap5.1.3/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-	<link rel="manifest" href="/favicons/site.webmanifest">
-
-
-	<title>Aureum</title>
-
-	<style>
-
-	</style>
+	</head>
 
 
-	<!-- Custom styles for this template -->
-	<link href="app.css" rel="stylesheet">
-</head>
+	<body>
 
-<body>
-	<nav class="navbar navbar-expand-md fixed-top shadow">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="https://www.aureumdata.com/"><i class="logo-aureum-name"></i></1></a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-				aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-				<i class='bx bx-menu fs-1'></i>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarCollapse">
-				<ul class="navbar-nav ms-auto mb-2 mb-md-0">
-					<li class="nav-item">
-						<a class="nav-link" href="#">Join Beta</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+		<!-- ===============================================-->
+		<!--    Main Content-->
+		<!-- ===============================================-->
+		<main class="main" id="top">
+			<nav class="navbar navbar-expand-lg fixed-top py-3 topNavBg bottomShadow" data-navbar-on-scroll="data-navbar-on-scroll">
+				<div class="container"><a title="logo" class="navbar-brand d-flex align-items-center fw-bolder fs-2 fst-italic" href="#">
+					<i class="logo-aureum-name"></i>
+					</a>
+					<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+					<div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+						<ul class="navbar-nav ms-auto pt-2 pt-lg-0">
+							<li class="nav-item px-2"><a class="nav-link fw-medium active" aria-current="page" href="#">Home</a></li>
+							<li class="nav-item px-2"><a class="nav-link fw-medium" href="#features">Features</a></li>
+							<li class="nav-item px-2"><a class="nav-link fw-medium" href="#pricing">Pricing</a></li>
+							<a class="btn btn-lg bg-white rounded-pill order-0" href="#">Sign up</a>
+					</div>
+				</div>
+			</nav>
+			<section class="py-0" id="home">
+				<div class="bg-holder d-none d-sm-block" style="background-image:url(assets/img/illustrations/hero-bg.png);background-position:right top;background-size:contain;">
+				</div>
+				<!--/.bg-holder-->
+
+				<div class="bg-holder d-sm-none" style="background-image:url(assets/img/illustrations/hero-bg.png);background-position:right top;background-size:contain;">
+				</div>
+				<!--/.bg-holder-->
+
+				<div class="container">
+					<div class="row align-items-center min-vh-75 min-vh-md-100">
+						<div class="col-md-7 col-lg-6 py-6 text-sm-start text-center">
+							<h1 class="mt-6 mb-sm-4 display-2 fw-semi-bold lh-sm fs-4 fs-lg-6 fs-xxl-8">Serve your customers better<br class="d-block d-lg-none d-xl-block" /> and faster</h1>
+							<p class="mb-4 fs-1">Easily connect your business apps and get insights now</p>
+							<div class="pt-3">
+										<a class="btn btn-primary rounded-pill">Sign up today</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="py-5">
+				<div class="bg-holder" style="background-image:url(assets/img/illustrations/bg.png);background-position:left top;background-size:initial;margin-top:-180px;">
+				</div>
+				<!--/.bg-holder-->
+
+				<div class="container">
+					<div class="row flex-center">
+						<div class="col-md-5 order-md-0 text-center text-md-start"><img class="img-fluid mb-4" src="assets/img/illustrations/passion.png" width="450" alt="" /></div>
+						<div class="col-md-5 text-center text-md-start">
+							<h6 class="fw-bold fs-2 fs-lg-3 display-3 lh-sm">Accelerate growth<br />without the growing pains</h6>
+							<p class="my-4 pe-xl-8">When you empower your folks with the customer information they need when they need it, everyone creates a remarkable customer experience</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="py-0">
+
+				<div class="container">
 
 
-	<!-- Optional JavaScript; choose one of the two! -->
+					<!-- ============================================-->
+					<!-- <section> begin ============================-->
+					<section class="py-8">
 
-	<!-- Option 1: Bootstrap Bundle with Popper -->
-	<script src="bootstrap5.1.3/js/bootstrap.bundle.min.js"></script>
+						<div class="container">
+							<div class="row flex-center">
+								<div class="col-md-5 order-md-1 text-center text-md-end"><img class="img-fluid mb-4" src="assets/img/illustrations/jobs.png" width="450" alt="" /></div>
+								<div class="col-md-5 text-center text-md-start">
+									<h6 class="fw-bold fs-2 fs-lg-3 display-3 lh-sm">All the details you want<br> right at your finger tips</h6>
+									<p class="my-4 pe-xl-8">No more spreadsheets. No more heroic efforts to find customer info. No more reliance on tribal knowledge and anecdotes</p>
+								</div>
+							</div>
+						</div>
+						<!-- end of .container-->
 
-	<!-- Option 2: Separate Popper and Bootstrap JS -->
-	<!--
-		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-		-->
-</body>
+					</section>
+					<!-- <section> close ============================-->
+					<!-- ============================================-->
+
+
+				</div>
+				<!-- end of .container-->
+
+			</section>
+			<section class="py-5">
+				<div class="bg-holder d-none d-sm-block" style="background-image:url(assets/img/illustrations/category-bg.png);background-position:right top;background-size:200px 320px;">
+				</div>
+				<!--/.bg-holder-->
+
+				<div class="container" id="features">
+					<div class="row justify-content-center">
+						<div class="col-md-9 col-lg-6 text-center mb-3">
+							<h5 class="fw-bold fs-3 fs-lg-5 lh-sm mb-3">Powerful Features</h5>
+						</div>
+					</div>
+					<div class="row flex-center h-100">
+						<div class="col-10 col-xl-9">
+							<div class="row">
+								<div class="col-sm-6 col-lg-4 pb-lg-6 px-lg-4 pb-4">
+									<div class="card py-4 shadow-sm h-100 hover-top">
+										<div class="text-center"> <img src="assets/img/illustrations/finance.png" height="120" alt="" />
+											<div class="card-body px-2">
+												<h6 class="fw-bold fs-1 heading-color">Automatic Metrics</h6>
+												<p class="mb-0 card-text">Track what's important <br/> without the guesswork</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-6 col-lg-4 pb-lg-6 px-lg-4 pb-4">
+									<div class="card py-4 shadow-sm h-100 hover-top">
+										<div class="text-center"> <img src="assets/img/illustrations/programmer.png" height="120" alt="" />
+											<div class="card-body px-2">
+												<h6 class="fw-bold fs-1 heading-color">Easy Integrations</h6>
+												<p class="mb-0 card-text">Connect your business data <br/> as easily as plugging in a lamp</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 col-lg-4 pb-lg-6 px-lg-4 pb-4">
+									<div class="card py-4 shadow-sm h-100 hover-top">
+										<div class="text-center"> <img src="assets/img/illustrations/production.png" height="120" alt="" />
+											<div class="card-body px-2">
+												<h6 class="fw-bold fs-1 heading-color">Packaged Insights</h6>
+												<p class="mb-0 card-text">See everything you've done <br/> with your customer in a one spot</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="py-0"><img class="w-100" src="assets/img/illustrations/come-on-join.png" alt="" id="pricing"/>
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-12 text-center">
+							<h6 class="fw-bold fs-3 fs-lg-5 lh-sm">Sign up today</h6>
+							<p>We're launching our beta with special pricing <br/> $100 per year for unlimited users and all our features</p>
+							<p class="col-6 mx-auto">
+							<script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/shell.js"></script>
+							<script>
+							hbspt.forms.create({
+								region: "na1",
+								portalId: "20580062",
+								formId: "4201cd20-1dc6-4c42-948c-c92a0d2dd073"
+							});
+							</script>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="py-0 topNavBg bottomShadow">
+				<div class="bg-holder">
+				</div>
+				<!--/.bg-holder-->
+
+				<div class="container">
+					<div class="row flex-center">
+						<div class="col-auto my-4">
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- ===============================================-->
+		<!--    End of Main Content-->
+		<!-- ===============================================-->
+
+
+
+
+		<!-- ===============================================-->
+		<!--    JavaScripts-->
+		<!-- ===============================================-->
+		<script src="vendors/@popperjs/popper.min.js"></script>
+		<script src="vendors/bootstrap5.1.3/js/bootstrap.min.js"></script>
+		<script src="vendors/is/is.min.js"></script>
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+		<script src="assets/js/theme.js"></script>
+
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&amp;display=swap" rel="stylesheet">
+		<!-- Start of HubSpot Embed Code -->
+		<script type="text/javascript" id="hs-script-loader" async defer src="https://js-na1.hs-scripts.com/20580062.js"></script>
+		
+		<!-- End of HubSpot Embed Code -->
+	</body>
 
 </html>
