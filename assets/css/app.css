@@ -59,7 +59,7 @@
   box-shadow:  0 3px 6px 0 #57575750 !important;
 }
 
-.nav-link {
+/* .nav-link {
   color: var(--dark) !important;
 }
 
@@ -69,7 +69,7 @@
 
 .nav-link a:hover {
   color: var(--primary-hover) !important;
-}
+} */
 
 .text-info {
   color: var(--info) !important;
@@ -493,6 +493,11 @@ height: 36px !important;
 
 .logo-aureum-name {
   content: url("../svg/AureumLogo_Name_Color.svg");
+  height: 40px !important;
+  }
+
+.logo-aureum-name-white {
+  content: url("../svg/aureum-name-bg-wt.svg");
   height: 40px !important;
   }
 
